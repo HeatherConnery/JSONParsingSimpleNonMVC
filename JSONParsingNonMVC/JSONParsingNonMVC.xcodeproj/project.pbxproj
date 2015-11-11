@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6033115804C672F54CCF432D /* Pods_JSONParsingNonMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF892409768E12374FDB37D /* Pods_JSONParsingNonMVC.framework */; };
 		B6E49D711BF393C50092616C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D701BF393C50092616C /* AppDelegate.swift */; };
 		B6E49D731BF393C50092616C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D721BF393C50092616C /* ViewController.swift */; };
 		B6E49D761BF393C50092616C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E49D741BF393C50092616C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B6E49D7B1BF393C50092616C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E49D791BF393C50092616C /* LaunchScreen.storyboard */; };
 		B6E49D861BF393C50092616C /* JSONParsingNonMVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D851BF393C50092616C /* JSONParsingNonMVCTests.swift */; };
 		B6E49D911BF393C50092616C /* JSONParsingNonMVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D901BF393C50092616C /* JSONParsingNonMVCUITests.swift */; };
+		B6E49D9F1BF394520092616C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49D9E1BF394520092616C /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		B6E49DA21BF3A6500092616C /* MapPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E49DA11BF3A6500092616C /* MapPin.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FF892409768E12374FDB37D /* Pods_JSONParsingNonMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSONParsingNonMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E49D6D1BF393C50092616C /* JSONParsingNonMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParsingNonMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E49D701BF393C50092616C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6E49D721BF393C50092616C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		B6E49D8C1BF393C50092616C /* JSONParsingNonMVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONParsingNonMVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E49D901BF393C50092616C /* JSONParsingNonMVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingNonMVCUITests.swift; sourceTree = "<group>"; };
 		B6E49D921BF393C50092616C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E49D9E1BF394520092616C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B6E49DA11BF3A6500092616C /* MapPin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapPin.swift; sourceTree = "<group>"; };
+		CC1FCDCDD2E81C9FAB741BEE /* Pods-JSONParsingNonMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONParsingNonMVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSONParsingNonMVC/Pods-JSONParsingNonMVC.release.xcconfig"; sourceTree = "<group>"; };
+		DC1DEF4F39ED9727B2772FDB /* Pods-JSONParsingNonMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSONParsingNonMVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSONParsingNonMVC/Pods-JSONParsingNonMVC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6033115804C672F54CCF432D /* Pods_JSONParsingNonMVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA6559F55FDACD6C9957A5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FF892409768E12374FDB37D /* Pods_JSONParsingNonMVC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		754691A56C9BEF4652BF33A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC1DEF4F39ED9727B2772FDB /* Pods-JSONParsingNonMVC.debug.xcconfig */,
+				CC1FCDCDD2E81C9FAB741BEE /* Pods-JSONParsingNonMVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B6E49D641BF393C50092616C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				B6E49D841BF393C50092616C /* JSONParsingNonMVCTests */,
 				B6E49D8F1BF393C50092616C /* JSONParsingNonMVCUITests */,
 				B6E49D6E1BF393C50092616C /* Products */,
+				754691A56C9BEF4652BF33A7 /* Pods */,
+				0EA6559F55FDACD6C9957A5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +125,8 @@
 		B6E49D6F1BF393C50092616C /* JSONParsingNonMVC */ = {
 			isa = PBXGroup;
 			children = (
+				B6E49DA01BF3A61C0092616C /* Model */,
+				B6E49D9E1BF394520092616C /* Constants.swift */,
 				B6E49D701BF393C50092616C /* AppDelegate.swift */,
 				B6E49D721BF393C50092616C /* ViewController.swift */,
 				B6E49D741BF393C50092616C /* Main.storyboard */,
@@ -125,6 +155,14 @@
 			path = JSONParsingNonMVCUITests;
 			sourceTree = "<group>";
 		};
+		B6E49DA01BF3A61C0092616C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6E49DA11BF3A6500092616C /* MapPin.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6E49D951BF393C50092616C /* Build configuration list for PBXNativeTarget "JSONParsingNonMVC" */;
 			buildPhases = (
+				84EBCFF536E5725E9AF5E385 /* Check Pods Manifest.lock */,
 				B6E49D691BF393C50092616C /* Sources */,
 				B6E49D6A1BF393C50092616C /* Frameworks */,
 				B6E49D6B1BF393C50092616C /* Resources */,
+				466A7AD8D9ADD66788EE52DD /* Embed Pods Frameworks */,
+				CF27DC3488DE8202B78A10B6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,13 +291,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		466A7AD8D9ADD66788EE52DD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONParsingNonMVC/Pods-JSONParsingNonMVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84EBCFF536E5725E9AF5E385 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF27DC3488DE8202B78A10B6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSONParsingNonMVC/Pods-JSONParsingNonMVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6E49D691BF393C50092616C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E49DA21BF3A6500092616C /* MapPin.swift in Sources */,
 				B6E49D731BF393C50092616C /* ViewController.swift in Sources */,
 				B6E49D711BF393C50092616C /* AppDelegate.swift in Sources */,
+				B6E49D9F1BF394520092616C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +487,7 @@
 		};
 		B6E49D961BF393C50092616C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1DEF4F39ED9727B2772FDB /* Pods-JSONParsingNonMVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSONParsingNonMVC/Info.plist;
@@ -407,6 +499,7 @@
 		};
 		B6E49D971BF393C50092616C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1FCDCDD2E81C9FAB741BEE /* Pods-JSONParsingNonMVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSONParsingNonMVC/Info.plist;
@@ -483,6 +576,7 @@
 				B6E49D971BF393C50092616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E49D981BF393C50092616C /* Build configuration list for PBXNativeTarget "JSONParsingNonMVCTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +585,7 @@
 				B6E49D9A1BF393C50092616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E49D9B1BF393C50092616C /* Build configuration list for PBXNativeTarget "JSONParsingNonMVCUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +594,7 @@
 				B6E49D9D1BF393C50092616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
